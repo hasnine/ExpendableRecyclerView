@@ -10,7 +10,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-public class RetrofitSingleton {private static final String BASE_URL = "Your Base Url";
+public class RetrofitSingleton {private static final String BASE_URL = "Yur API's Base URL";
     private static Retrofit retrofit = null;
     private static Context sContext;
     private static Retrofit sRetrofit;

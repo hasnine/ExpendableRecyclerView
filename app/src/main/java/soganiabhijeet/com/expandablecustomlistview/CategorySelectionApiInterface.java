@@ -10,7 +10,7 @@ import soganiabhijeet.com.expandablecustomlistview.networkcallmodel.Subcategorie
 public interface CategorySelectionApiInterface {
 
 
-    @GET("Yor API's endpoint")
+    @GET("Your API's endpoint")
     Call<SubcategoriesViewModel> getSubcategoriesAndSubSubcategories();
 
 }
